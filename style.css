@@ -7,7 +7,6 @@
 header {
   min-height: 8rem;
   min-width: 100%;
-  background-color: bisque;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,19 +24,90 @@ h1 {
   font-family: monospace;
   font-size: 3rem;
   text-transform: uppercase;
+  padding: 1rem;
+  border-bottom: 0.3rem solid chartreuse;
+  border-radius: 0.2rem;
 }
 section.principal {
+  height: 75%;
+  width: auto;
   display: flex;
   align-content: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 10rem;
+  gap: 7rem;
+  background-color: white;
+}
+.botoes {
+  display: flex;
+  height: 10vh;
+  width: 90vw;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 button {
   height: 3rem;
   width: 8rem;
   cursor: pointer;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   text-transform: uppercase;
+  font-family: monospace;
+  font-size: 1.1rem;
+  background-color: transparent;
+  border: 0.15rem solid;
+  transition: all 0.2s ease-out;
+}
+button:nth-child(1) {
+  border-color: #79FC02;
+}
+button:nth-child(1):hover {
+  border-color: #79FC02;
+  background-color: #79FC02;
+  transform: scaleY(1.1);
+}
+button:nth-child(2) {
+  border-color: #fed51b;
+}
+button:nth-child(2):hover {
+  border-color: #fed51b;
+  background-color: #fed51b;
+  transform: scaleY(1.1);
+}
+button:nth-child(3) {
+  border-color: #FE0010;
+}
+button:nth-child(3):hover {
+  border-color: #FE0010;
+  background-color: #FE0010;
+  transform: scaleY(1.1);
+  color: white;
+}
+button:nth-child(4) {
+  border-color: dodgerblue;
+}
+button:hover {
+  font-weight: bold;
+}
+#semaforo {
+  width: 184px;
+  height: 421px;
+  transition: all 0.5s ease-in-out;
+}
+#semaforo:hover {
+  cursor: help;
+  transform: scale(1.1);
+}
+
+footer {
+  height: 5rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
 }
