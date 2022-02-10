@@ -30,19 +30,14 @@ function alternarCor(semaforo) {
   };
 
   // resolução 'funcional':
-  if(checarCont(conteudoSrc, "desligado") || contador === 0) {
-    mudarCorPraVermelho(semaforo);
-    contador++;
-  } else if(checarCont(conteudoSrc, "vermelho") && contador === 1) {
-    mudarCorPraAmarelo(semaforo);
-    contador++;
-  } else if(checarCont(conteudoSrc, "amarelo") && contador === 2) {
+  if(checarCont(conteudoSrc, "desligado")) {
     mudarCorPraVerde(semaforo);
-    contador++;
-  } else if(checarCont(conteudoSrc, "verde") && contador === 3) {
+  } else if(checarCont(conteudoSrc, "verde")) {
     mudarCorPraAmarelo(semaforo);
+  } else if(checarCont(conteudoSrc, "amarelo")) {
+    mudarCorPraVermelho(semaforo);
   } else {
-    contador = 0;
+    mudarCorPraVerde(semaforo);
   }
 }
 
