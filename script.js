@@ -8,7 +8,6 @@ const btnAmarelo     = document.querySelector("#btnAmarelo");
 const btnVermelho    = document.querySelector("#btnVermelho");
 const btnAuto        = document.querySelector("#btnAuto");
 let idAlternarCor    = null;
-let contador         = 0;
 
 /* Functions */
 

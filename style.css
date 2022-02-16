@@ -56,8 +56,8 @@ button {
   font-family: monospace;
   font-size: 1.1rem;
   background-color: transparent;
-  border: 0.15rem solid;
-  transition: all 0.2s ease-out;
+  border: 0.15rem solid rgb(192, 192, 192);
+  transition: all 0.2s ease;
 }
 button:nth-child(1) {
   border-color: #79FC02;
@@ -85,7 +85,7 @@ button:nth-child(3):hover {
   color: white;
 }
 button:nth-child(4) {
-  border-color: dodgerblue;
+  background-color: white;
 }
 button:hover {
   font-weight: bold;
