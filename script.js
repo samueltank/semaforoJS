@@ -49,7 +49,7 @@ function alternarAuto() {
     clearInterval(idAlternarCor); // cancela o temporizador
     idAlternarCor = null;
     btnAuto.innerHTML = "Automático";
-    btnAuto.style.color = "black";
+    btnAuto.style.color = "royalblue";
   }
 }
 
