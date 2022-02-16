@@ -1,3 +1,16 @@
+
+/* Acrescentar um time para cada estado do semáfoto! */
+
+/* 
+  11 98603 - 8129
+  Juan Riquelme
+
+  uplexis.com.br
+
+  11 93168 - 7832
+*/
+
+
 "use strict";
 
 /* Variables */
