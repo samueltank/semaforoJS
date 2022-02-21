@@ -111,3 +111,10 @@ footer {
   font-weight: bold;
   font-style: italic;
 }
+
+noscript {
+  color: red;
+  font-size: 0.9rem;
+  text-decoration: overline;
+  cursor: help;
+}
